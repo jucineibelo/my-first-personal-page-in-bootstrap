@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+    <title>Meu primeiro site em Bootstrap</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Dela+Gothic+One&family=Lato:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar col-12 navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav col-12">
+              <a class="nav-link active col-1" aria-current="page" href="#home">Home</a>
+              <a class="nav-link col-1" href="#">Formação</a>
+              <a class="nav-link col-1" href="#">Curiosidades</a>
+              <a class="nav-link col-1" href="#">Linguagens</a>
+              <div class="d-grid gap-2 d-md-block">
+                <button class="btn btn-dark" type="button"><a href="#sabia">Saiba mais</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <header>
+      <br>
+      <h1 class="display-6 text-light text-start">Bem vindo(a) a minha primeira pagina pessoal.</h1><br>
+      <div class="gif2">
+        <img class="img-fluid" src="img/giphy2.gif" alt="gif bumm"><br><br>
+      </div>
+      <div class="container text-center" >
+        <img id="juci" class="img-fluid" style="max-width:70%" src="img/juci-black.jpg" alt="foto Juci"><br><br><br>
+      </div>
+      
+      <div class="utilizei">
+        <p class="text-light"> Me Chamo Jucinei Luiz Belo e sou Desenvolvedor em inicio de carreira.<br><br> Aqui você vai encontrar um pouquinho sobre mim. <br><br> AAAhhhh desde já muito grato por visitar minha página.</p><br>
+      </div>
+     
+    </header>
+      <div id="carouselExampleIndicators" class="carousel slide col-12" data-bs-ride="carousel" >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/dev1.jpg"  class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/dev2.jpg"  class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/pretty.jpg"  class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>  
+      <div id="sobre" class="text-light text-right">
+        <br><br>
+        <div class="gif">
+          <img class="img-fluid" src="img/giphy.gif" alt="gif computer">     
+        </div>
+          <div class="text-sobre">
+          <h2> Saiba mais sobre Jucinei</h2><br><br>
+          <p>Bem, Juci está terminando o curso de Análise e Desenvolvimento de sistemas. Ele se identifica muito na area de programação/desenvolvimento de sistemas.</p>
+          <p>Em Dezembro de 2022 estará formado em ADS pela <a href="https://www.uninter.com/graduacao-ead/curso-analise-e-desenvolvimento-de-sistemas/" target="blank_">Universidade Internacional Uninter.</a></p>
+          <p>Atualmente está fazendo alguns cursos, alguns já completou e eles são:</p>
+          <ul>
+            <li>Programação em Python</li>
+            <li>HTML5 e CSS3</li>
+            <li>Introdução Frontend-Ninja</li>
+            <li>Lógica de Programação com JavaScript</li>
+            <li>Algoritmos e Lógica de Programação</li>
+            <li>Curso de Desenvolvimento Web Responsivo</li>
+            <li>Fundamentos do CSS Flexbox</li>
+            <li>Fundamentos JavaScript para iniciantes</li>
+          </ul>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
+      </div>
+     
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c2331"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4"
+             style="background-color: #6351ce"
+             >
+      <!-- Left -->
+      <div class="me-5">
+        <span>Conecte-se comigo nas redes sociais:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="https://www.facebook.com/jucioleb" class="text-white me-4">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/jucineibelo/" class="text-white me-4">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/jucinei-belo/" class="text-white me-4">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="https://github.com/jucineibelo" class="text-white me-4">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">Desenvolvedor Frontend</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+            In fermentum augue quis erat viverra egestas. Aenean venenatis tristique hendrerit. Sed mattis suscipit tristique.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Produtos</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Sites</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Paginas Unicas</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Análise de Sistemas</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Análise de Suporte</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Sua Conta</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Seja um afiliado</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Ajuda</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contato</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> Xanxerê, Santa Catarina, Brasil</p>
+            <p><i class="fas fa-envelope mr-3"></i> jucineibelo@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 55 49 9 9819-2395</p>
+            <p><i class="fas fa-print mr-3"></i> + 55 49 3433-6310</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)">
+         <p>&copy Desenvolvido por Jucinei Belo</p>
+
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</div>
+<!-- End of .container -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

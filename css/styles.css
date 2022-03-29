@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+
+#juci {
+    border-radius: 3%;
+}
+
+.utilizei {
+    background-color: rgb(18, 18, 19);
+    text-align: center;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    color: rgb(58, 56, 56);
+    border-radius: 2%;
+}
+
+.utilizei p {
+    padding: 5%;
+    padding-bottom: 2%;
+    font-size: large;
+}
+
+a:visited {
+   color:#b8b4b4;
+   text-decoration:none;
+}
+
+#sobre {
+    background-image: url(/img/sobre-img.jpg);
+    width: 100%;
+}
+
+.text-sobre {
+    width: 52%;
+    background-color:rgb(58, 56, 56);
+    padding: 2% 2% 2% 2%;
+    text-align: justify;
+    margin-left: 3%;
+    border-radius: 6%;
+}
+
+.gif img {
+    float:right;
+    margin-right: 2%; 
+    margin-left: 5%; 
+    width: 40%;
+    border-radius: 5%;
+}
+
+.gif2 {
+    width: 15%;
+    border-radius: 10%;
+    float: right;
+    margin-right: 2%;
+    margin-top:-4%;
+}
+
+
